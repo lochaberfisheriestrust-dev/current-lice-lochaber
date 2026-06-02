@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_Lochaber_1 = function(feature, resolution){
+var style_SalmonFarms_2 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,15 @@ var style_Lochaber_1 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(31,120,180,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.128}),
+        image: new ol.style.Icon({
+                  imgSize: [579.997, 579.997],
+                  scale: 0.0655175802633462,
+                  anchor: [289.9985, 289.9985],
+                  anchorXUnits: "pixels",
+                  anchorYUnits: "pixels",
+                  rotation: 0.0,
+                  src: "styles/fish.svg"
+            }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
