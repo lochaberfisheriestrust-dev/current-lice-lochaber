@@ -69,8 +69,8 @@ lyr_Lochaber_1.set('fieldImages', {'fid': 'TextEdit', 'RptOrder': 'TextEdit', 'S
 lyr_SalmonFarms_2.set('fieldImages', {'id': 'TextEdit', 'Score': 'TextEdit', 'Date': 'TextEdit', 'Farm': 'TextEdit', 'Company': 'TextEdit', 'Lice No': 'TextEdit', });
 lyr_WildfishliceTarangerscore_3.set('fieldImages', {'field_1': 'Range', 'Site': 'TextEdit', 'Date': 'DateTime', 'fish_number': 'Range', 'Average Lice /g': 'TextEdit', 'Taranger Total risk (%)': 'Range', 'x': 'Range', 'y': 'Range', });
 lyr_Lochaber_1.set('fieldLabels', {'fid': 'no label', 'RptOrder': 'no label', 'SFDCode': 'no label', 'SFDName': 'no label', 'CSSR16_ID': 'no label', 'CSSR16Name': 'no label', });
-lyr_SalmonFarms_2.set('fieldLabels', {'id': 'hidden field', 'Score': 'hidden field', 'Date': 'hidden field', 'Farm': 'hidden field', 'Company': 'inline label - visible with data', 'Lice No': 'hidden field', });
-lyr_WildfishliceTarangerscore_3.set('fieldLabels', {'field_1': 'hidden field', 'Site': 'inline label - visible with data', 'Date': 'no label', 'fish_number': 'inline label - visible with data', 'Average Lice /g': 'inline label - visible with data', 'Taranger Total risk (%)': 'inline label - visible with data', 'x': 'hidden field', 'y': 'hidden field', });
+lyr_SalmonFarms_2.set('fieldLabels', {'id': 'no label', 'Score': 'no label', 'Date': 'no label', 'Farm': 'no label', 'Company': 'no label', 'Lice No': 'no label', });
+lyr_WildfishliceTarangerscore_3.set('fieldLabels', {'field_1': 'hidden field', 'Site': 'inline label - visible with data', 'Date': 'inline label - visible with data', 'fish_number': 'inline label - visible with data', 'Average Lice /g': 'inline label - visible with data', 'Taranger Total risk (%)': 'inline label - visible with data', 'x': 'hidden field', 'y': 'hidden field', });
 lyr_WildfishliceTarangerscore_3.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
