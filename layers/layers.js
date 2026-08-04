@@ -55,8 +55,8 @@ var lyr_Wildfishsealiceriskcatergory_3 = new ol.layer.Vector({
                 popuplayertitle: 'Wild fish sea lice risk catergory',
                 interactive: true,
     title: 'Wild fish sea lice risk catergory<br />\
-    <img src="styles/legend/Wildfishsealiceriskcatergory_3_0.png" /> 0 - 25 % <br />\
-    <img src="styles/legend/Wildfishsealiceriskcatergory_3_1.png" /> 25 -50 %<br />\
+    <img src="styles/legend/Wildfishsealiceriskcatergory_3_0.png" /> 0 - 20 % <br />\
+    <img src="styles/legend/Wildfishsealiceriskcatergory_3_1.png" /> 20 -50 %<br />\
     <img src="styles/legend/Wildfishsealiceriskcatergory_3_2.png" /> 50 - 75 %<br />\
     <img src="styles/legend/Wildfishsealiceriskcatergory_3_3.png" />  75 -100 %<br />\
     <img src="styles/legend/Wildfishsealiceriskcatergory_3_4.png" /> NA<br />' });

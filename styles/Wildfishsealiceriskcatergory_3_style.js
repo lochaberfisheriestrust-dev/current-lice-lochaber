@@ -4,7 +4,7 @@ function categories_Wildfishsealiceriskcatergory_3(feature, value, size, resolut
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case '0 - 25':
+                switch(valueStr) {case '0 - 20':
                     return [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(51,160,44,1.0)'})}),
@@ -13,7 +13,7 @@ function categories_Wildfishsealiceriskcatergory_3(feature, value, size, resolut
                               bufferWidth)
     })];
                     break;
-case '25 -50':
+case '20 -50':
                     return [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(250,252,22,1.0)'})}),
